@@ -1,14 +1,6 @@
-import threading
-import logging
+from collections import defaultdict
 import time
 import wmi
-from collections import defaultdict
-import socket
-import sys
-import time
-import datetime
-import os
-import json
 import requests
 
 # RUN this on the client machine, make sure to have Open Hardware Monitor running at the same time so that WMI can access the data.
